@@ -15,15 +15,15 @@
 .read question-6.sql
 .print "-------------"
 .changes on
-SELECT COUNT(*) FROM persons WHERE city="Sacramento";
-SELECT COUNT(*) FROM persons WHERE city="Tulsa";
+SELECT COUNT(*) FROM persons WHERE city='Sacramento';
+SELECT COUNT(*) FROM persons WHERE city='Tulsa';
 .read question-7.sql
-SELECT COUNT(*) FROM persons WHERE city="Sacramento";
-SELECT COUNT(*) FROM persons WHERE city="Tulsa";
+SELECT COUNT(*) FROM persons WHERE city='Sacramento';
+SELECT COUNT(*) FROM persons WHERE city='Tulsa';
 .print "-------------"
-SELECT DISTINCT age FROM persons WHERE address LIKE "%Street";
+SELECT DISTINCT age FROM persons WHERE address LIKE '%Street';
 .read question-8.sql
-SELECT DISTINCT age FROM persons WHERE address LIKE "%Street";
+SELECT DISTINCT age FROM persons WHERE address LIKE '%Street';
 .print "-------------"
 .read question-9.sql
 .print "-------------"
